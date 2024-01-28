@@ -1,0 +1,46 @@
+var glasses = document.getElementById('glasses');
+var ctx = glasses.getContext('2d');
+
+ctx.save();
+ctx.beginPath();
+ctx.moveTo(100,75);
+ctx.lineTo(300,75);
+ctx.lineTo(325,95);
+ctx.lineTo(400,95);
+ctx.lineTo(425,75);
+ctx.lineTo(625,75);
+ctx.lineTo(625,275);
+ctx.lineTo(475,275);
+ctx.lineTo(425,225);
+ctx.lineTo(400,220);
+ctx.lineTo(325,220);
+ctx.lineTo(300,225);
+ctx.lineTo(250,275);
+ctx.lineTo(100,275);
+ctx.fillStyle = "rgba(0,0,0,0.4)";
+ctx.fill();
+ctx.moveTo(75,50);
+ctx.lineTo(325,50);
+ctx.lineTo(350,70);
+ctx.lineTo(375,70);
+ctx.lineTo(400,50);
+ctx.lineTo(650,50);
+ctx.lineTo(650,300);
+ctx.lineTo(450,300);
+ctx.lineTo(400,250);
+ctx.lineTo(375,245);
+ctx.lineTo(350,245);
+ctx.lineTo(325,250);
+ctx.lineTo(275,300);
+ctx.lineTo(75,300);
+ctx.lineTo(75,50);
+ctx.fillStyle = "#333";
+ctx.fill("evenodd");
+ctx.closePath();
+ctx.restore();
+
+var  display = document.getElementById('display');
+var ct = display.getContext('2d');
+
+ct.save();
+ct.beginPath();

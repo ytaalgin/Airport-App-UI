@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Location Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="table">
+  <div class="table-cell">
+    <div class="box">
+      <div class="row">
+        <div class="col4 sidebar">
+          <ul>
+            <li class="active"><span>Sağa Dön</span></li>
+            <li class="active"><span>Sola Dön</span></li>
+            <li class="active current"><span>Düz İlerle</span></li>
+            <li><span>Hedef Sağda!</span></li>
+          </ul>
+        </div>
+        <div class="col8 mapbox">
+          <div class="map"></div>
+          <div id="dot"><div class="ping"></div></div>
+          <div id="number"><div>Takip Numarası:</div>1B 107</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col6"><h2>Nereden</h2>
+          <div class="address">1B 102 <br>
+          Türkiye, THY Park Yeri</div>
+        </div>
+        <div class="col6"><h2>Nereye</h2>
+          <div class="address">1B 107'ye<br>
+          Türkiye, THY Park Yeri</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script><script  src="./script.js"></script>
+
+</body>
+</html>

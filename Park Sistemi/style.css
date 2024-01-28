@@ -1,0 +1,24 @@
+.container {
+  width: 40%;
+  margin: 0 auto;
+}
+.btn {
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  font-weight: 100;
+  font-family; sans-serif; 
+}
+@media (max-width: 1350px){
+    .container {
+    width: 50%;
+  }
+}
+@media (max-width: 480px){
+  .container {
+    width: 100%;
+  }
+}
